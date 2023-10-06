@@ -121,4 +121,5 @@ console.log(noStartWhiteSpace)
 let noEndWithSpace = username[username.length - 1] !== " " && password[password.length - 1] !== " ";
 console.log(noEndWithSpace)
 
-
+let answer = confirm(yes or no?);
+console.log(answer);
