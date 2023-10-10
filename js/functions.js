@@ -18,7 +18,8 @@ const sayHello = (name) => "Hello " + name;
  * console.log 'helloMessage' to check your work
  */
 
-console.log(sayHello("octavious"))
+const helloMessage = sayHello('octavious')
+console.log(helloMessage)
 
 /**
  * TODO:
