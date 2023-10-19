@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register With Us</title>
+    <link rel="stylesheet" href="./css/forms.css">
 </head>
 <body>
     <form method="POST" action="https://request-inspector.glitch.me/">
@@ -28,16 +29,16 @@
         <label for="how_did_you_hear_about_us">
             <span>how did you hear about us?</span>
             <br>
-            <input type="radio" value="Billboard" name="us1">
+            <input type="checkbox" value="Billboard" name="us">
             <Span>Billboard</Span>
             <br>
-            <input type="radio" value="Radio Advertisement" name="us2">
+            <input type="checkbox" value="Radio Advertisement" name="us">
             <span>Radio Advertisement</span>
             <br>
-            <input type="radio" value="Internet Advertisement" name="us3">
+            <input type="checkbox" value="Internet Advertisement" name="us">
             <span>Internet Advertisement</span>
             <br>
-            <input type="radio" value="Other" name="us4">
+            <input type="checkbox" value="Other" name="us">
             <span>other</span>
         </label>
         <br>
@@ -45,8 +46,9 @@
             <span>What web browser are you using</span>
             <select name="browser">
                 <option value="chrome">chrome</option>
-                <option value="google">google</option>
+                <option value="safari">safari</option>
                 <option value="firefox">firefox</option>
+                <option value="other">other</option>
             </select>
         </label>
         <br>

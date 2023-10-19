@@ -1,10 +1,10 @@
-        alert("Welcome to The Land of Monsters!")
-let newUser = confirm("Are You A New User?")
-if (newUser === true) {
-    alert("UserName can't contain special characters")
+function add (num1,num2) {
+    if(!isNaN(num1) && !isNaN(num2) || typeof num1 === 'number' && typeof num2 === 'number'){
+        let num3 = Number(num1)
+        let num4 =Number(num2)
+        return num3 + num4
+    }else{
+        return false
+    }
 }
-
-userName = "&"
- while(userName !== /[^a-zA-Z0-9]/.test(userName)){
-     userName = prompt("enter valid username")
- }
+console.log(add('2','3'))

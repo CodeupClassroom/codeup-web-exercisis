@@ -1,0 +1,56 @@
+*{
+    color: red;
+    font-family: "American Typewriter", serif;
+}
+
+body {
+    /*min-height: 70dvh;*/
+    background-image: url("../img/rainFall.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fancy-header{
+    color: #0066ff;
+}
+
+.topLocation {
+    text-align: center;
+}
+
+header{
+    color: purple;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: square;
+}
+
+td {
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+tr  {
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: blue;
+}

@@ -1,0 +1,20 @@
+
+body{
+    font-family: "Papyrus",serif;
+    color: #c51c1c;
+}
+h1 {
+    color: #0066ff;
+    text-transform: uppercase;
+    letter-spacing: 5px;"
+}
+p {
+    font-style: italic;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.article-background {
+    background-color: blue;
+}

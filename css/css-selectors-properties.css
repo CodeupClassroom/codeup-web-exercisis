@@ -1,0 +1,85 @@
+:root{
+    --cl-primary: #4e5d33;
+    --cl-secondary: #FFC10C;
+    --cl-secondary-light: #FFd46c ;
+    --cl-border-raduis: 10px
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Roboto Light", sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: unset;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+}
+header.container{
+    justify-content: center;
+}
+
+header.container .row{
+    align-items: center;
+}
+
+#page-header{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header img{
+    width: 150px;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    font-weight: 100;
+}
+
+nav > ul > li{
+    padding: 10px 20px;
+}
+
+nav > ul > li > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.container.hero {
+    min-height: 70dvh;
+    background: green;
+    background-image: url("../img/codeup-logo-svg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    background: var(--cl-secondary);
+    padding: 10px 20px;
+    border-radius: var(--cl-border-raduis);
+    font-weight: 600;
+    transition: background-color ease 0.3s;
+}
+
+.btn:hover{
+    background: var(--cl-secondary-light);
+}
